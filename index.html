@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/d208d4d2e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="container mx-auto">
+    <header class="bg-[#FFF8F3]">
+      <!-- nav section -->
+      <div class="flex justify-between items-center py-5 px-4">
+        <h2 class="text-4xl font-bold">
+          Sunvir <span class="text-[#FD6E0A]">Shakib</span>
+        </h2>
+        <nav>
+          <ul class="flex space-x-4 font-semibold">
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href=#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="p-4 bg-[#FD6E0A] rounded-xl font-semibold text-white">
+          Hire Me
+        </button>
+      </div>
+      <!-- banner section -->
+      <div class="flex justify-between items-center  px-4">
+        <!-- text section -->
+        <div class="w-1/2 space-y-4 ml-10">
+          <h4 class="text-[#474747] text-4xl font-semibold">Hi, I am</h4>
+          <h1 class="text-5xl font-bold">Sunvir Shakib</h1>
+          <p class="text-[#757575] text-xl">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
+          <div class="flex space-x-4">
+            <button class="p-4 bg-[#FD6E0A] rounded-lg font-bold text-white">
+              Download CV <i class="fa-solid fa-arrow-down-long"></i>
+            </button>
+            <button
+              class="p-4 outline rounded-lg outline-orange-600 text-[#FD6E0A] bg-transparent"
+            >
+              <i class="fa-solid fa-phone"></i> Contact
+            </button>
+          </div>
+        </div>
+        <!-- img section -->
+        <div class="banner_bg w-1/2 flex justify-center text-right">
+          <img src="./images/bannerimg.png" alt="" >
+        </div>
+      </div>
+    </header>
+    <main class="my-5 mb-20">
+      <!-- about section -->
+      <section id="about" class="bg-[#FFF8F3] h-80 m-32 relative">
+        <div
+          class="bg-white flex flex-col justify-center items-center mx-10 my-10 px-6 py-4 absolute space-y-4 text-center rounded-xl"
+        >
+          <h3 class="text-4xl font-bold">About Me</h3>
+          <p class="text-[#757575] text-[16px]">
+            I, m a designer & developer with a passion for web design. I enjoy
+            developing simple, clean and slick websites that provide real value
+            to the end user. Thousands of clients have procured exceptional
+            resulfs while working with me. Delivering work within time and
+            budget which meets clients requirements in our mata.
+          </p>
+          <div class="flex space-x-10 text-[#757575]">
+            <div>
+              Name: <br />
+              <span class="font-bold">Sunvir Shakib</span>
+            </div>
+            <div>
+              Email:
+              <br />
+              <span class="font-bold"> sunvirshakib@gmail.com</span>
+            </div>
+            <div>
+              Date Of Birth <br />
+              <span class="font-bold">January 2002</span>
+            </div>
+            <div>
+              From:
+              <br />
+              <span class="font-bold">Chattogram,Bangladesh</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- what i do section -->
+      <section id="skills">
+        <div class="w-2/3 mx-auto text-center space-y-4">
+          <h3 class="font-bold text-4xl">What I do</h3>
+          <p class="text-[#757575]">
+            I have more than 5 years experience building software for clients
+            all over the world. Below is a quick overview of my main technical
+            skill sets and technologies i use. Want to find out more about my
+            experience? Check out my online resume and project portfolio.
+          </p>
+        </div>
+        <!-- grid section -->
+        <div class="grid grid-cols-4 gap-6 mt-8">
+          <div class="shadow-lg p-6 space-y-4">
+            <img src="./images/icons/js.png" alt="" />
+            <h2 class="text-xl font-bold">Vanilla JavaScript</h2>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="shadow-lg p-6 space-y-4">
+            <img src="./images/icons/react.png" alt="" />
+            <h2 class="text-xl font-bold">React</h2>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="shadow-lg p-6 space-y-4">
+            <img src="./images/icons/nodejs.png" alt="" />
+            <h2 class="text-xl font-bold">Node.js</h2>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="shadow-lg p-6 space-y-4">
+            <img src="./images/icons/mongo.png" alt="" />
+            <h2 class="text-xl font-bold">MongoDB</h2>
+            <p class="text-[#757575]">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--  summarry-->
+      <section class="mt-8 mx-20">
+        <h2 class="text-4xl font-bold text-center my-5">A summary of My Resume</h2>
+        <div class="grid grid-cols-2 mt-8">
+          <!-- education -->
+          <div class="pr-16">
+            <h3 class="text-3xl font-bold text-[#474747] mb-4">My Education</h3>
+            <div class="space-y-2 my-2">
+              <h3 class="font-bold text-2xl text-[#474747]">
+                B.Sc in Computer Engineering
+              </h3>
+              <h5 class="font-semibold text-xl text-[#757575]">
+                Premier University / 2023 - 2027
+              </h5>
+              <p>
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="space-y-2 my-2">
+              <h3 class="font-bold text-2xl text-[#474747]">
+                Higher secondary school certificate,Science
+              </h3>
+              <h5 class="font-semibold text-xl text-[#757575]">
+                Hazera-Taju Degree College / 2019 - 2021
+              </h5>
+              <p>
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+          <!-- experience -->
+          <div class="pr-16">
+            <h3 class="text-3xl font-bold text-[#474747] mb-4">
+              My Experience
+            </h3>
+            <div class="space-y-2 my-2">
+              <h3 class="font-bold text-2xl text-[#474747]">
+                Marketing Leopards || Full-time
+              </h3>
+              <h5 class="font-semibold text-xl text-[#757575]">
+                Managing Director
+              </h5>
+              <p>
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="space-y-2 my-2">
+              <h3 class="font-bold text-2xl text-[#474747]">
+                Fiverr || Freelance
+              </h3>
+              <h5 class="font-semibold text-xl text-[#757575]">
+                Social Media Marketer
+              </h5>
+              <p>
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="space-y-2 my-2">
+              <h3 class="font-bold text-2xl text-[#474747]">
+                ElevationStyles || Full-time
+              </h3>
+              <h5 class="font-semibold text-xl text-[#757575]">
+                Social Media Manager
+              </h5>
+              <p>
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-[#FFF8F3] h-auto flex justify-between">
+      <div class="p-10 w-1/2 space-y-4">
+        <h3 class="text-3xl font-bold">Lets Connect</h3>
+        <p class="text-[#474747]">
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+        </p>
+        <div class="flex space-x-4">
+          <img src="./images/icons/facebook.png" alt="" />
+          <img src="./images/icons/insta.png" alt="" />
+          <img src="./images/icons/twitter.png" alt="" />
+        </div>
+      </div>
+      <!-- form section -->
+      <div id="contact" class="p-10 w-1/2 form-container">
+        <h3 class="text-3xl font-bold">Let’s Message me</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+       
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+         
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

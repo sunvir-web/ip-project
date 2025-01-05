@@ -1,0 +1,40 @@
+.banner_bg {
+  background-image: url("https://i.ibb.co.com/VSGK06h/header-bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.form-container {
+  background: #fff8f3;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  width: 50%;
+}
+.form-container h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.form-container label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-container button {
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-container button:hover {
+  background-color: #fd6e0a;
+}
